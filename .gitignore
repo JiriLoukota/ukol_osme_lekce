@@ -21,6 +21,7 @@ target/
 .mvn
 *.md
 *.cmd
+*.txt
 **//mvnw//**
 
 ### NetBeans ###
