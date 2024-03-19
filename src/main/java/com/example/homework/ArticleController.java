@@ -10,7 +10,7 @@ import java.io.FileReader;
 @RestController
 @RequestMapping("articles/")
 class ArticleController {
-    @GetMapping("sci-fi")
+    @GetMapping("scifi")
     public String getSciFiArticle(){
         return loadArticle(Paths.sciFi);
     }
